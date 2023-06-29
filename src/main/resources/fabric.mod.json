@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"name.tutorial_mod.ExampleMod"
+			"name.tutorial_mod.TutorialMod"
 		],
-		"fabric-datagen": [
-			"name.tutorial_mod.ExampleModDataGenerator"
+		"client":[
+			"name.tutorial_mod.TutorialModClient"
 		]
 	},
 	"mixins": [
